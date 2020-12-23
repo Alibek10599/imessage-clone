@@ -23,7 +23,7 @@ app.use(cors())
 app.use(express.json())
 
 // db config
-const mongoURI = 'mongodb+srv://ali:Alrekkr10599@imessage.n7a3x.mongodb.net/messages?retryWrites=true&w=majority';
+const mongoURI = 'Ur db';
 
 mongoose.connect(mongoURI, {
     useCreateIndex: true,
